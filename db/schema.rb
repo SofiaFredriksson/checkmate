@@ -33,7 +33,7 @@ ActiveRecord::Schema.define(version: 2019_08_02_090434) do
     t.string "name"
     t.float "price"
     t.integer "bill_id"
-    t.integer "cutomer_id"
+    t.integer "customer_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

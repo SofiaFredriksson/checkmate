@@ -4,7 +4,7 @@ class CreateItems < ActiveRecord::Migration[5.2]
       t.string :name
       t.float :price
       t.integer :bill_id
-      t.integer :cutomer_id
+      t.integer :customer_id
 
       t.timestamps
     end
