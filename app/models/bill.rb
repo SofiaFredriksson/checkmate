@@ -1,3 +1,3 @@
 class Bill < ApplicationRecord
-    has_one :customers
+    has_one :customer
 end
