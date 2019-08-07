@@ -17,6 +17,6 @@ class Api::V1::CustomersController < ApplicationController
     private 
 
     def customer_params
-        params.require(:customer).permit(:name, :due)
+        params.require(:customer).permit(:name, :due, :bill_id)
     end 
 end

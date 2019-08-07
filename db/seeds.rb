@@ -1,9 +1,9 @@
-Item.destroy_all
+
 Bill.destroy_all
 Customer.destroy_all
 
 
-b1 = Bill.create(restaurant_name: 'Nandos', total_price: 34.6, service_charge: 12.5)
+# b1 = Bill.create(restaurant_name: 'Nandos', total_price: 34.6, service_charge: 12.5)
 
 # c1 = Customer.create(name: 'Sofia', customer_price: 0.0)
 # c2 = Customer.create(name: 'Sarah', customer_price: 0.0)

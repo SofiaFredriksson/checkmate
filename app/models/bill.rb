@@ -1,4 +1,3 @@
 class Bill < ApplicationRecord
-    has_many :items
-    has_many :customers, through: :items
+    has_one :customers
 end
